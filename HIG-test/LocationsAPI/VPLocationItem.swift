@@ -17,21 +17,6 @@ struct VPLocationItem: VPLocationItemProtocol {
     let location: CLLocationCoordinate2D
 }
 
-fileprivate func randomCoordinates(between coordinates:(CLLocationCoordinate2D,CLLocationCoordinate2D)) -> CLLocationCoordinate2D{
-    let latDelta = coordinates.1.latitude - coordinates.0.latitude
-    let longDelta = coordinates.1.longitude - coordinates.0.longitude
-    
-    let latRandom = latDelta * drand48()
-    let longRandom = longDelta * drand48()
-    
-    return CLLocationCoordinate2D(latitude: coordinates.0.latitude + latRandom,
-                                  longitude: coordinates.0.longitude + longRandom)
-}
-
-let kyivCoord:(CLLocationCoordinate2D,CLLocationCoordinate2D)  =
-    (CLLocationCoordinate2D(latitude: 50.585881, longitude: 30.246250),
-     CLLocationCoordinate2D(latitude: 50.355497, longitude: 30.835475))
-
 extension VPLocationItem: Decodable{
     init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
@@ -43,7 +28,8 @@ extension VPLocationItem: Decodable{
         let type = try container.decode(String.self, forKey: .type)
         self.type = VPLocationItemType.init(rawValue:type)
         
-        self.location = randomCoordinates(between: kyivCoord)
+        let kyiv = CLLocationCoordinate2D.kyivCoord
+        self.location = CLLocationCoordinate2D.randomCoordinates(between: kyiv)
     }
     
     enum CodingKeys: CodingKey {

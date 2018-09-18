@@ -14,6 +14,7 @@
 		32540BF12150849C00AB4F94 /* VPColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32540BEF2150849C00AB4F94 /* VPColorCollectionViewCell.xib */; };
 		32540BF42150905600AB4F94 /* VPMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BF32150905600AB4F94 /* VPMapModel.swift */; };
 		32540BF62150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BF52150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift */; };
+		32540BFA2150C60E00AB4F94 /* CLLocation+RandomCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BF92150C60E00AB4F94 /* CLLocation+RandomCoordinates.swift */; };
 		3289F21921500E570048BE50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F21821500E570048BE50 /* AppDelegate.swift */; };
 		3289F22021500E5E0048BE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3289F21F21500E5E0048BE50 /* Assets.xcassets */; };
 		3289F22321500E5E0048BE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3289F22121500E5E0048BE50 /* LaunchScreen.storyboard */; };
@@ -39,6 +40,7 @@
 		32540BEF2150849C00AB4F94 /* VPColorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPColorCollectionViewCell.xib; sourceTree = "<group>"; };
 		32540BF32150905600AB4F94 /* VPMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPMapModel.swift; sourceTree = "<group>"; };
 		32540BF52150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VPFiltersViewController+Pulley.swift"; sourceTree = "<group>"; };
+		32540BF92150C60E00AB4F94 /* CLLocation+RandomCoordinates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+RandomCoordinates.swift"; sourceTree = "<group>"; };
 		3289F21521500E570048BE50 /* HIG-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HIG-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3289F21821500E570048BE50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3289F21F21500E5E0048BE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				3289F23A21502EC40048BE50 /* UIColor+HEX.swift */,
+				32540BF92150C60E00AB4F94 /* CLLocation+RandomCoordinates.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				3289F24121505C130048BE50 /* VPLocationsAPI.swift in Sources */,
 				3289F23D215031F10048BE50 /* VPPersistentManager.swift in Sources */,
 				32540BF62150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift in Sources */,
+				32540BFA2150C60E00AB4F94 /* CLLocation+RandomCoordinates.swift in Sources */,
 				3289F23921501DAE0048BE50 /* VPLocationEntity+VPLocationItem.swift in Sources */,
 				32540BF02150849C00AB4F94 /* VPColorCollectionViewCell.swift in Sources */,
 				32540BE821506B8600AB4F94 /* VPMapViewController.swift in Sources */,

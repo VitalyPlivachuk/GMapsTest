@@ -16,8 +16,9 @@ class VPMapViewController: UIViewController {
     
     override func loadView() {
         let mapView = GMSMapView(frame: UIScreen.main.bounds)
-        let bounds = GMSCoordinateBounds(coordinate: kyivCoord.0,
-                                         coordinate: kyivCoord.1)
+        let kyiv = CLLocationCoordinate2D.kyivCoord
+        let bounds = GMSCoordinateBounds(coordinate: kyiv.0,
+                                         coordinate: kyiv.1)
         let camera = mapView.camera(for: bounds, insets: UIEdgeInsets())!
         mapView.camera = camera
         mapView.delegate = self
@@ -79,11 +80,12 @@ extension VPMapViewController: GMSMapViewDelegate{
     }
     
     func mapView(_ mapView: GMSMapView, didChange position: GMSCameraPosition) {
-        if !position.target.containtsIn(topLeft: kyivCoord.0,
-                                        bottomRight: kyivCoord.1){
+        let kyiv = CLLocationCoordinate2D.kyivCoord
+        if !position.target.containtsIn(topLeft: kyiv.0,
+                                        bottomRight: kyiv.1){
             
-            let update = GMSCameraUpdate.setTarget(position.target.constraintIn(topLeft: kyivCoord.0,
-                                                                   bottomRight: kyivCoord.1))
+            let update = GMSCameraUpdate.setTarget(position.target.constraintIn(topLeft: kyiv.0,
+                                                                   bottomRight: kyiv.1))
             
             mapView.moveCamera(update)
             
