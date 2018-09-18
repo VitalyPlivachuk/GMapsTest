@@ -1,0 +1,24 @@
+PODS:
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - Pulley (2.5.0)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - Pulley
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GoogleMaps
+    - Pulley
+
+SPEC CHECKSUMS:
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  Pulley: cd351f605ec2e7412c69d39313c49f99dd1f97c1
+
+PODFILE CHECKSUM: 8d36dfca97f3ec7a996a483374b47994f796917a
+
+COCOAPODS: 1.5.3

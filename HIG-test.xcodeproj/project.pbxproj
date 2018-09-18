@@ -7,21 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32540BE821506B8600AB4F94 /* VPMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BE721506B8600AB4F94 /* VPMapViewController.swift */; };
+		32540BEB21506B9B00AB4F94 /* VPFiltersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BE921506B9B00AB4F94 /* VPFiltersViewController.swift */; };
+		32540BEC21506B9B00AB4F94 /* VPFiltersViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32540BEA21506B9B00AB4F94 /* VPFiltersViewController.xib */; };
+		32540BF02150849C00AB4F94 /* VPColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BEE2150849C00AB4F94 /* VPColorCollectionViewCell.swift */; };
+		32540BF12150849C00AB4F94 /* VPColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32540BEF2150849C00AB4F94 /* VPColorCollectionViewCell.xib */; };
+		32540BF42150905600AB4F94 /* VPMapModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BF32150905600AB4F94 /* VPMapModel.swift */; };
+		32540BF62150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32540BF52150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift */; };
 		3289F21921500E570048BE50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F21821500E570048BE50 /* AppDelegate.swift */; };
-		3289F21B21500E570048BE50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F21A21500E570048BE50 /* ViewController.swift */; };
-		3289F21E21500E570048BE50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3289F21C21500E570048BE50 /* Main.storyboard */; };
 		3289F22021500E5E0048BE50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3289F21F21500E5E0048BE50 /* Assets.xcassets */; };
 		3289F22321500E5E0048BE50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3289F22121500E5E0048BE50 /* LaunchScreen.storyboard */; };
+		3289F22B215011340048BE50 /* VPNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F22A215011340048BE50 /* VPNetworkClient.swift */; };
+		3289F22D215013890048BE50 /* VPLocationItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F22C215013890048BE50 /* VPLocationItemProtocol.swift */; };
+		3289F23221501B490048BE50 /* VPLocationModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3289F23021501B490048BE50 /* VPLocationModel.xcdatamodeld */; };
+		3289F23521501D100048BE50 /* VPLocationEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F23321501D100048BE50 /* VPLocationEntity+CoreDataClass.swift */; };
+		3289F23621501D100048BE50 /* VPLocationEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F23421501D100048BE50 /* VPLocationEntity+CoreDataProperties.swift */; };
+		3289F23921501DAE0048BE50 /* VPLocationEntity+VPLocationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F23821501DAE0048BE50 /* VPLocationEntity+VPLocationItem.swift */; };
+		3289F23B21502EC40048BE50 /* UIColor+HEX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F23A21502EC40048BE50 /* UIColor+HEX.swift */; };
+		3289F23D215031F10048BE50 /* VPPersistentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F23C215031F10048BE50 /* VPPersistentManager.swift */; };
+		3289F23F21504DA70048BE50 /* VPLocationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F23E21504DA70048BE50 /* VPLocationItem.swift */; };
+		3289F24121505C130048BE50 /* VPLocationsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3289F24021505C130048BE50 /* VPLocationsAPI.swift */; };
+		C2C0638C76868F89993E50A9 /* Pods_HIG_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA3F0A24538F36B5FBB75268 /* Pods_HIG_test.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07650D6DE85134D7EC6D287D /* Pods-HIG-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIG-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HIG-test/Pods-HIG-test.debug.xcconfig"; sourceTree = "<group>"; };
+		32540BE721506B8600AB4F94 /* VPMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPMapViewController.swift; sourceTree = "<group>"; };
+		32540BE921506B9B00AB4F94 /* VPFiltersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPFiltersViewController.swift; sourceTree = "<group>"; };
+		32540BEA21506B9B00AB4F94 /* VPFiltersViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPFiltersViewController.xib; sourceTree = "<group>"; };
+		32540BEE2150849C00AB4F94 /* VPColorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		32540BEF2150849C00AB4F94 /* VPColorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		32540BF32150905600AB4F94 /* VPMapModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPMapModel.swift; sourceTree = "<group>"; };
+		32540BF52150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VPFiltersViewController+Pulley.swift"; sourceTree = "<group>"; };
 		3289F21521500E570048BE50 /* HIG-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HIG-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3289F21821500E570048BE50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3289F21A21500E570048BE50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3289F21D21500E570048BE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3289F21F21500E5E0048BE50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3289F22221500E5E0048BE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3289F22421500E5E0048BE50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3289F22A215011340048BE50 /* VPNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPNetworkClient.swift; sourceTree = "<group>"; };
+		3289F22C215013890048BE50 /* VPLocationItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPLocationItemProtocol.swift; sourceTree = "<group>"; };
+		3289F23121501B490048BE50 /* VPLocationModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VPLocationModel.xcdatamodel; sourceTree = "<group>"; };
+		3289F23321501D100048BE50 /* VPLocationEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VPLocationEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3289F23421501D100048BE50 /* VPLocationEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VPLocationEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3289F23821501DAE0048BE50 /* VPLocationEntity+VPLocationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VPLocationEntity+VPLocationItem.swift"; sourceTree = "<group>"; };
+		3289F23A21502EC40048BE50 /* UIColor+HEX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+HEX.swift"; sourceTree = "<group>"; };
+		3289F23C215031F10048BE50 /* VPPersistentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPPersistentManager.swift; sourceTree = "<group>"; };
+		3289F23E21504DA70048BE50 /* VPLocationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPLocationItem.swift; sourceTree = "<group>"; };
+		3289F24021505C130048BE50 /* VPLocationsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPLocationsAPI.swift; sourceTree = "<group>"; };
+		4A5323912CC5FF4894145903 /* Pods-HIG-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIG-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-HIG-test/Pods-HIG-test.release.xcconfig"; sourceTree = "<group>"; };
+		AA3F0A24538F36B5FBB75268 /* Pods_HIG_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIG_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +63,65 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2C0638C76868F89993E50A9 /* Pods_HIG_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0174D3A151C7CD7C96C20321 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07650D6DE85134D7EC6D287D /* Pods-HIG-test.debug.xcconfig */,
+				4A5323912CC5FF4894145903 /* Pods-HIG-test.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		32540BED21506BA200AB4F94 /* FiltersView */ = {
+			isa = PBXGroup;
+			children = (
+				32540BF2215084A300AB4F94 /* ColorsCell */,
+				32540BF72150BEC300AB4F94 /* FiltersVC */,
+			);
+			path = FiltersView;
+			sourceTree = "<group>";
+		};
+		32540BF2215084A300AB4F94 /* ColorsCell */ = {
+			isa = PBXGroup;
+			children = (
+				32540BEE2150849C00AB4F94 /* VPColorCollectionViewCell.swift */,
+				32540BEF2150849C00AB4F94 /* VPColorCollectionViewCell.xib */,
+			);
+			path = ColorsCell;
+			sourceTree = "<group>";
+		};
+		32540BF72150BEC300AB4F94 /* FiltersVC */ = {
+			isa = PBXGroup;
+			children = (
+				32540BE921506B9B00AB4F94 /* VPFiltersViewController.swift */,
+				32540BF52150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift */,
+				32540BEA21506B9B00AB4F94 /* VPFiltersViewController.xib */,
+			);
+			path = FiltersVC;
+			sourceTree = "<group>";
+		};
+		32540BF82150BF5100AB4F94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3289F23A21502EC40048BE50 /* UIColor+HEX.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		3289F20C21500E570048BE50 = {
 			isa = PBXGroup;
 			children = (
 				3289F21721500E570048BE50 /* HIG-test */,
 				3289F21621500E570048BE50 /* Products */,
+				0174D3A151C7CD7C96C20321 /* Pods */,
+				D0953E47D7C47A3EE315EC9E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +137,48 @@
 			isa = PBXGroup;
 			children = (
 				3289F21821500E570048BE50 /* AppDelegate.swift */,
-				3289F21A21500E570048BE50 /* ViewController.swift */,
-				3289F21C21500E570048BE50 /* Main.storyboard */,
+				3289F24221505F6E0048BE50 /* LocationsAPI */,
+				32540BE721506B8600AB4F94 /* VPMapViewController.swift */,
+				32540BF32150905600AB4F94 /* VPMapModel.swift */,
+				32540BED21506BA200AB4F94 /* FiltersView */,
+				32540BF82150BF5100AB4F94 /* Extensions */,
 				3289F21F21500E5E0048BE50 /* Assets.xcassets */,
 				3289F22121500E5E0048BE50 /* LaunchScreen.storyboard */,
 				3289F22421500E5E0048BE50 /* Info.plist */,
 			);
 			path = "HIG-test";
+			sourceTree = "<group>";
+		};
+		3289F23721501D1A0048BE50 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3289F23021501B490048BE50 /* VPLocationModel.xcdatamodeld */,
+				3289F23321501D100048BE50 /* VPLocationEntity+CoreDataClass.swift */,
+				3289F23421501D100048BE50 /* VPLocationEntity+CoreDataProperties.swift */,
+				3289F23821501DAE0048BE50 /* VPLocationEntity+VPLocationItem.swift */,
+				3289F23C215031F10048BE50 /* VPPersistentManager.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		3289F24221505F6E0048BE50 /* LocationsAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3289F23721501D1A0048BE50 /* CoreData */,
+				3289F22A215011340048BE50 /* VPNetworkClient.swift */,
+				3289F22C215013890048BE50 /* VPLocationItemProtocol.swift */,
+				3289F23E21504DA70048BE50 /* VPLocationItem.swift */,
+				3289F24021505C130048BE50 /* VPLocationsAPI.swift */,
+			);
+			path = LocationsAPI;
+			sourceTree = "<group>";
+		};
+		D0953E47D7C47A3EE315EC9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA3F0A24538F36B5FBB75268 /* Pods_HIG_test.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3289F22721500E5E0048BE50 /* Build configuration list for PBXNativeTarget "HIG-test" */;
 			buildPhases = (
+				4C5707221D1C4E6F5AD2CC58 /* [CP] Check Pods Manifest.lock */,
 				3289F21121500E570048BE50 /* Sources */,
 				3289F21221500E570048BE50 /* Frameworks */,
 				3289F21321500E570048BE50 /* Resources */,
+				E2E63EA3884C28D364676D2A /* [CP] Copy Pods Resources */,
+				2FACF03A5A3EF1D064544ED4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,33 +244,97 @@
 			files = (
 				3289F22321500E5E0048BE50 /* LaunchScreen.storyboard in Resources */,
 				3289F22021500E5E0048BE50 /* Assets.xcassets in Resources */,
-				3289F21E21500E570048BE50 /* Main.storyboard in Resources */,
+				32540BF12150849C00AB4F94 /* VPColorCollectionViewCell.xib in Resources */,
+				32540BEC21506B9B00AB4F94 /* VPFiltersViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FACF03A5A3EF1D064544ED4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HIG-test/Pods-HIG-test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Pulley/Pulley.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Pulley.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HIG-test/Pods-HIG-test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C5707221D1C4E6F5AD2CC58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HIG-test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2E63EA3884C28D364676D2A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HIG-test/Pods-HIG-test-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HIG-test/Pods-HIG-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3289F21121500E570048BE50 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3289F21B21500E570048BE50 /* ViewController.swift in Sources */,
+				32540BF42150905600AB4F94 /* VPMapModel.swift in Sources */,
+				3289F23F21504DA70048BE50 /* VPLocationItem.swift in Sources */,
+				3289F23B21502EC40048BE50 /* UIColor+HEX.swift in Sources */,
+				3289F22D215013890048BE50 /* VPLocationItemProtocol.swift in Sources */,
 				3289F21921500E570048BE50 /* AppDelegate.swift in Sources */,
+				3289F23221501B490048BE50 /* VPLocationModel.xcdatamodeld in Sources */,
+				32540BEB21506B9B00AB4F94 /* VPFiltersViewController.swift in Sources */,
+				3289F22B215011340048BE50 /* VPNetworkClient.swift in Sources */,
+				3289F24121505C130048BE50 /* VPLocationsAPI.swift in Sources */,
+				3289F23D215031F10048BE50 /* VPPersistentManager.swift in Sources */,
+				32540BF62150BCA200AB4F94 /* VPFiltersViewController+Pulley.swift in Sources */,
+				3289F23921501DAE0048BE50 /* VPLocationEntity+VPLocationItem.swift in Sources */,
+				32540BF02150849C00AB4F94 /* VPColorCollectionViewCell.swift in Sources */,
+				32540BE821506B8600AB4F94 /* VPMapViewController.swift in Sources */,
+				3289F23621501D100048BE50 /* VPLocationEntity+CoreDataProperties.swift in Sources */,
+				3289F23521501D100048BE50 /* VPLocationEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3289F21C21500E570048BE50 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3289F21D21500E570048BE50 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3289F22121500E5E0048BE50 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,11 +462,13 @@
 		};
 		3289F22821500E5E0048BE50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07650D6DE85134D7EC6D287D /* Pods-HIG-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = "HIG-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,11 +482,13 @@
 		};
 		3289F22921500E5E0048BE50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A5323912CC5FF4894145903 /* Pods-HIG-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8JL4LXHDE2;
 				INFOPLIST_FILE = "HIG-test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,6 +522,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3289F23021501B490048BE50 /* VPLocationModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3289F23121501B490048BE50 /* VPLocationModel.xcdatamodel */,
+			);
+			currentVersion = 3289F23121501B490048BE50 /* VPLocationModel.xcdatamodel */;
+			path = VPLocationModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 3289F20D21500E570048BE50 /* Project object */;
 }
